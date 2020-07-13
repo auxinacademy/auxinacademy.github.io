@@ -23,7 +23,7 @@
             border-width: 1px;
             border-color: #c7c7c7;
         }
-        .anav {
+        .navlink {
             display: inline;
             float: left;
             color: #6e6e6e;
@@ -53,7 +53,7 @@
             <!-- border-bottom-right-radius: 10px; -->
         }
 
-        .anav:hover {
+        .navlink:hover {
             background-color: #31693d;
             color: white;
         }
@@ -88,14 +88,13 @@
     </style>
 </head>
 <body>
-
-<ul class="navigation">
-    <li class="rl anav">Home</li>
-    <li class="anav">Videos</li>
-    <li class="rr anav">Extemp Workshop</li>
-    <li class="rightmost" style="float:right" ><img src="Logo.png" width=30px height=30px></li>
-    <li class="rightmost2" style="float:right" >Auxin Academy</li>
-</ul>
+    <ul class="navigation">
+        <li class="rl anav"><a class="navlink" href="index.html">Home</a></li>
+        <li class="anav"><a class="navlink" href="Videos.html">Videos</a></li>
+        <li class="rr anav"><a class="navlink" href="DebateWorkshop.html">Extemp Workshop</a></li>
+        <li class="rightmost" style="float:right" ><img src="Logo.png" width=30px height=30px></li>
+        <li class="rightmost2" style="float:right" >Auxin Academy</li>
+    </ul>
 
 <img src="VideosBackground.png" width=100% height="auto">
 
