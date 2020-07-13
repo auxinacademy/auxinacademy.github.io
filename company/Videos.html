@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:wght@100&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <title>Example</title>
+    <style>
+        body {
+            background-color: #e3e3e3;
+            margin: 0;
+            font-family: 'Playfair Display', serif;
+        }
+        .navigation {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            top: 0;
+            overflow: hidden;
+            background-color: #f0f0f0;
+            border-style: solid;
+            border-width: 1px;
+            border-color: #c7c7c7;
+        }
+        .anav {
+            display: inline;
+            float: left;
+            color: #6e6e6e;
+            padding: 10px 30px;
+            transition: 0.5s;
+            border-right: 1px solid #c7c7c7;
+        }
+        .rightmost {
+            display: inline;
+            float: left;
+            color: white;
+            padding: 5px 5px 0px 5px;
+            background-color: white;
+        }
+        .rightmost2 {
+            display: inline;
+            float: left;
+            padding: 10px 10px;
+            background-color: white;
+            color: #363636;
+        }
+
+        .rl {
+            <!-- border-bottom-left-radius: 10px; -->
+        }
+        .rr {
+            <!-- border-bottom-right-radius: 10px; -->
+        }
+
+        .anav:hover {
+            background-color: #31693d;
+            color: white;
+        }
+
+        .listdiv {
+            width: 100%;
+            top: 0;
+            background-color: white;
+            height: 38px;
+            border-bottom-style: solid;
+            border-bottom-width: 5px;
+            border-color: grey;
+        }
+
+        .mainpage {
+            margin-top: -5px;
+            background-color: #f3f3f3;
+            padding: 10px 30px;
+            text-align: center;
+            font-family: 'Roboto', sans-serif;
+            font-size: 25px;
+            color: black;
+        }
+
+        .videos {
+        }
+
+        iframe {
+            display: inline-block;
+        }
+
+    </style>
+</head>
+<body>
+
+<ul class="navigation">
+    <li class="rl anav">Home</li>
+    <li class="anav">Videos</li>
+    <li class="rr anav">Extemp Workshop</li>
+    <li class="rightmost" style="float:right" ><img src="Logo.png" width=30px height=30px></li>
+    <li class="rightmost2" style="float:right" >Auxin Academy</li>
+</ul>
+
+<img src="VideosBackground.png" width=100% height="auto">
+
+<div class="mainpage">
+    <p>Our YouTube channel can be found here: <a href="https://www.youtube.com/channel/UCSoGmd-B97VJP4OlYkdtskg/featured" target="_blank">Auxin Academy Youtube Channel</a>.<br>This is an example collection of our videos, which showcases our style of videos and the various topics that we go over. We plan to add more topics as well. </p>
+</div>
+
+<div class="videos">
+    <p align="center">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Pk7i0MOFlZQ"></iframe>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/TAjNe4uIduE"></iframe>
+    </p>
+
+    <p align="center">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/envsgZTgm84"></iframe>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/R_3v228XEQY"></iframe>
+    </p>
+</div>
+
+</body>
+</html>
